@@ -1,9 +1,9 @@
 import logo from "../../assets/logo.png";
 import busca from "../../assets/busca.png";
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-import Inicio from "../../pages/Inicio/Inicio";
+import Inicio from "../../pages/inicio/Inicio";
 import Doados from "../../pages/livrosDoados/LivrosDoados";
-import QueroDoar from "../../pages/QueroDoar/QueroDoar";
+import QueroDoar from "../../pages/queroDoar/QueroDoar";
 import S from "./header.module.scss";
 
 export default function header() {
